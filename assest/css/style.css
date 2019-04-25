@@ -1,0 +1,115 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+nav{
+    width: 100%;
+    background: #012b72;
+    height: 60px;
+}
+ul.dropdown{
+    padding: 0px;
+    margin: 0px;
+}
+ul.dropdown li{
+    float: left;
+    list-style: none;
+    padding: 0px 9px;
+    box-sizing: border-box;
+    line-height: 60px;
+    position: relative;
+}
+ul li h4{
+	font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+ul li label{
+	padding-left: 5px;
+	padding-right: 5px;
+    top: 0!important;
+    font-size: 15px;
+}
+.inputText{
+	-webkit-border-radius: 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid #ebebeb!important;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 22px;
+	box-shadow: none;
+	width: 300px;
+    height: 50px;
+}
+::placeholder { 
+	color: gray;
+	font-weight: normal;
+  }
+ul.dropdown span{
+	color: white;
+	font-size: 13px;
+}
+ul.dropdown li:hover{
+    background: wheat;
+}
+ul.dropdown li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;   
+}
+.clear{
+    clear: both;
+}
+.subList{
+    position: absolute;
+    background: red;
+    padding: 0px;
+    left:0px;
+    display: none;
+}
+.subForm{
+	position: absolute;
+    padding: 7px;
+    left:0px;
+	display: none;
+	margin-left: 20px;
+	border: 2px solid rgb(245, 240, 240);
+	border-radius: 4px;
+}
+ul.subList li{
+    float: none;
+}
+.fastForword{
+	margin-left: 30px;
+	margin-top: -60px;
+}
+.fastForword .specialSpan{
+	font-size: 12px;
+    color: #999;
+    margin-top: -4px;
+    font-weight: 400;
+}
+.amount {
+	position: absolute
+}
+.onAmount{
+	position: relative;
+}
+.onAmount .browsePlan{
+	color: blue;
+	margin-top: 23px;
+	margin-left: 192px;
+	position: relative;
+}
+.onAmount .specialSpan{
+	color: #999;
+	margin-top: 0px;
+	margin-left: 192px;
+	position: relative;
+}
+.dropdown .fastForword label,
+.dropdown .fastForword i{
+	color: blue;
+}
