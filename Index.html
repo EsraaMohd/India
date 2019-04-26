@@ -12,10 +12,17 @@
 
 </head>
 <body>
+	
 		<!--Nav tabs starts-->
-		<nav>
-			<ul class="dropdown">
-				<li>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsExample05">
+				<ul class="dropdown navbar-nav mr-auto">
+				<li class="nav-item ">
 					<span>Mobile</span>
 					<form class="subForm">
 						<h4>Mobile Recharge or Bill Payment</h4>
@@ -37,62 +44,201 @@
 							
 							<!--<span  class="specialSpan">Instant payment from your Paytm balance</span>-->
 						</div>
-						<buttlon type="button" class="btn btn-primary">Proceed to Recharge</button>
+						<buttlon class="btn" type="button">Proceed to Recharge</button>
 						
 					</form>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>ELECTRICITY</span>
+					<form class="subForm">
+						<h4>Pay For ELectricity</h4>
+						<input class="radioButton" type="radio" value="Prepaid" checked > <label>Electricity Boards</label>
+						<input class="radioButton" type="radio" value="Postpaid" disabled> <label> Apartment</label>
+						<br>
+						<select class="stateslist">
+							<option value="">Select State</option>
+							<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+							<option value="Andhra Pradesh">Andhra Pradesh</option>
+							<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+							<option value="Assam">Assam</option>
+							<option value="Bihar">Bihar</option>
+							<option value="Chandigarh">Chandigarh</option>
+							<option value="Chhattisgarh">Chhattisgarh</option>
+							<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+							<option value="Daman and Diu">Daman and Diu</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Goa">Goa</option>
+							<option value="Gujarat">Gujarat</option>
+							<option value="Haryana">Haryana</option>
+							<option value="Himachal Pradesh">Himachal Pradesh</option>
+							<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+							<option value="Jharkhand">Jharkhand</option>
+							<option value="Karnataka">Karnataka</option>
+							<option value="Kerala">Kerala</option>
+							<option value="Lakshadweep">Lakshadweep</option>
+							<option value="Madhya Pradesh">Madhya Pradesh</option>
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="Manipur">Manipur</option>
+							<option value="Meghalaya">Meghalaya</option>
+							<option value="Mizoram">Mizoram</option>
+							<option value="Nagaland">Nagaland</option>
+							<option value="Orissa">Orissa</option>
+							<option value="Pondicherry">Pondicherry</option>
+							<option value="Punjab">Punjab</option>
+							<option value="Rajasthan">Rajasthan</option>
+							<option value="Sikkim">Sikkim</option>
+							<option value="Tamil Nadu">Tamil Nadu</option>
+							<option value="Tripura">Tripura</option>
+							<option value="Uttaranchal">Uttaranchal</option>
+							<option value="Uttar Pradesh">Uttar Pradesh</option>
+							<option value="West Bengal">West Bengal</option>
+							</select>
+						<buttlon class="btn" type="button">Proceed</button>
+						
+					</form>
 					
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>DTH</span>
+					<form class="subForm">
+						<h4>DTH Recharge</h4>
+						<button onclick="displayListFunction()" class="selectOperator"> select operator</button>
+						<div class="list">
+							<ul class="dthUL ">
+							<!--<li><span> select operator</span></li> -->
+							<li>
+								<img class="dthImage" src="assest/img/airtel_digital_tv.png" alt="Airtel Digital TV">
+								<span>Airtel Digital TV</span>
+									
+							</li>
+							<br>
+							<li>
+									
+								<img class="dthImage" src="assest/img/dish_tv.png" alt="dish_tv">
+								<span>Dish TV</span>
+									
+							</li>
+							<br>
+							<li>
+								
+								<img class="dthImage" src="assest/img/tata_sky.png" alt="tata_sky">
+								<span>Tata Sky</span>
+								
+							</li>
+							<br>
+							<li>
+								<img class="dthImage" src="assest/img/reliance_digital_tv.png" alt="reliance_digital_tv">
+								<span>Reliance Digital Tv</span>
+							</li>
+							<br>
+							<li>
+								<img class="dthImage" src="assest/img/videocon-d2h.png" alt="videocon-d2h">
+								<span>Videocon D2h</span>
+							</li>
+							</ul>
+						</div>
+						
+						<buttlon class="btn" type="button">Proceed</button>
+					</form>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>METRO</span>
-					
+					<form class="subForm  content-fluid">
+						<h4>Metro</h4>
+						<button onclick="displayListFunction()" class="selectOperator">Metro</button>
+						<div class="list">
+							<ul class="dthUL ">
+							<!--<li><span> select operator</span></li> -->
+							<li>
+								<img class="dthImage" src="assest/img/delhi_metro.jpg" alt="delhi_metro">
+								<span>Delhi Metro</span>
+									
+							</li>
+							<br>
+							<li>
+									
+								<img class="dthImage" src="assest/img/hyderabad_metro.png" alt="hyderabad_metro">
+								<span>Hyderabad Metro</span>
+									
+							</li>
+							<br>
+							<li>
+								
+								<img class="dthImage" src="assest/img/mumbai_metro.png" alt="mumbai_metro">
+								<span>Mumbai Metro</span>
+								
+							</li>
+							</ul>
+						</div>
+						<button class="btn">Proceed</button>
+				
+						<p>After successful recharge, please tap your metro card on AVM/TVM/AG at any metro station.</p>
+						
+					</form>
 				</li>
-				<li>
-					<span>DTH</span>
-				</li>
-				<li>
+				<li class="nav-item ">
 					<span>BOOK A CYCLINER</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>PIPED GAS LINE</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>LANDLINE</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>BROADBAND</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>CABEL TV</span>
+					<form class="subForm">
+						<h4>CableTv Recharge or Bill Payment</h4>
+						<button onclick="displayListFunction()" class="selectOperator">operator</button>
+						<div class="list">
+							<ul class="dthUL ">
+							<!--<li><span> select operator</span></li> -->
+							<li>
+								<img class="dthImage" src="assest/img/airtel_digital_tv.png" alt="Airtel Digital TV">
+								<span>Airtel Digital TV</span>
+									
+							</li>
+							<br>
+							<li>
+									
+								<img class="dthImage" src="assest/img/dish_tv.png" alt="dish_tv">
+								<span>Dish TV</span>
+									
+							</li>
+							
+							</ul>
+						</div>
+						
+						<buttlon class="btn" type="button">Proceed</button>
+					</form>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>GOOGLE PLAY</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>INSURANCE</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>WATER</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>CHALLAN</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>TOLL TAG</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>CREDIT CARD</span>
 				</li>
-				<li>
+				<li class="nav-item ">
 					<span>DONATION</span>
 				</li>
 				<div class="clear"></div>
-			</ul>
+				</ul>
+			</div>		
 		</nav>	
 		<!--Nav tabs ends-->
 		<script src="assest/js/jquery-3.3.1.min.js"></script>

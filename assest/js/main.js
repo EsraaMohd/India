@@ -10,4 +10,13 @@ $(document).ready(function () {
     }, function () {
         $(this).find(".subForm").slideUp(300);
     });
+
+    //select operator
+ function displayListFunction(){
+
+        document.getElementsByClassName("list").setAttribute('style', 'display:block');
+    }
+    
+
+    
 });

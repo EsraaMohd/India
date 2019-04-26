@@ -7,6 +7,9 @@ nav{
     background: #012b72;
     height: 60px;
 }
+.collapse .navbar-collapse{
+    margin-top: 54px;
+}
 ul.dropdown{
     padding: 0px;
     margin: 0px;
@@ -14,7 +17,7 @@ ul.dropdown{
 ul.dropdown li{
     float: left;
     list-style: none;
-    padding: 0px 9px;
+    padding: 0px 8px;
     box-sizing: border-box;
     line-height: 60px;
     position: relative;
@@ -76,7 +79,8 @@ ul.dropdown li a{
 	display: none;
 	margin-left: 20px;
 	border: 2px solid rgb(245, 240, 240);
-	border-radius: 4px;
+    border-radius: 4px;
+    height: auto;
 }
 ul.subList li{
     float: none;
@@ -112,4 +116,74 @@ ul.subList li{
 .dropdown .fastForword label,
 .dropdown .fastForword i{
 	color: blue;
+}
+.stateslist{
+    width: 286px;
+}
+.subForm .btn{
+    background: #00b9f5;
+    font-size: 16px;
+    padding: 15px 20px;
+    color: white;
+    width: 286px;
+    height: 35px;
+    margin-bottom: 15px;
+    line-height: 10px;
+
+}
+.selectOperator{
+    width: 286px;
+    background: white;
+    color: rgb(172, 169, 169);
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 0.5px solid rgb(192, 191, 191);
+    text-align: left;
+
+}
+
+.subForm p{
+    color: black;
+    width: 286px;
+    padding: 5px;
+    font-size: 12px;
+    padding: 5px;
+    margin: 15px 0 0;
+    background: #ebebeb;
+    margin-top: -9px;
+    line-height: initial;
+}
+.list{
+    display: none;
+}
+.dthUL{
+    
+    margin-left: 10px;
+    overflow: vertical scroll;
+}
+.show{
+    display: block;
+}
+
+.dthImage{
+    width: 15%;
+    border-radius: 50%;
+    margin-right: 3%;
+    margin-left: -52px;  
+}
+
+.subForm .dthUL li  span{
+    color: black;
+    padding:10px 0  ;
+    width: 84%;
+}
+
+@media (max-width: 992px){
+    .navbar-nav .nav-item span{
+        color: black;
+    }
+    
 }
