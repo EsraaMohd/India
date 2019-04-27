@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
 
     //select operator
- function displayListFunction(){
+    function displayListFunction(){
 
         document.getElementsByClassName("list").setAttribute('style', 'display:block');
     }

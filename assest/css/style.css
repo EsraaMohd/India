@@ -185,5 +185,11 @@ ul.subList li{
     .navbar-nav .nav-item span{
         color: black;
     }
+    .navbar-nav.nav-link .dropdown-toggle{
+       color: black;
+   }
+  /* .navbar-nav.dropdown-toggle::after{
+       display: none;
+   }*/
     
 }

@@ -22,9 +22,12 @@
 
 				<div class="collapse navbar-collapse" id="navbarsExample05">
 				<ul class="dropdown navbar-nav mr-auto">
-				<li class="nav-item ">
-					<span>Mobile</span>
-					<form class="subForm">
+			
+				<li class="nav-item  show">
+					<span class="" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile</span>
+					<!--<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Mobile</a>-->
+
+					<form class="subForm dropdown-menu show" aria-labelledby="dropdown03">
 						<h4>Mobile Recharge or Bill Payment</h4>
 						<input class="radioButton" type="radio" value="Prepaid" checked > <label>Prepaid</label>
 						<input class="radioButton" type="radio" value="Postpaid" disabled> <label> Postpaid</label>
@@ -48,9 +51,61 @@
 						
 					</form>
 				</li>
-				<li class="nav-item ">
-					<span>ELECTRICITY</span>
-					<form class="subForm">
+				<li class="nav-item  show">
+					<span class="" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Electricity</span>
+					<!--<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Mobile</a>-->
+
+					<form class="subForm dropdown-menu show" aria-labelledby="dropdown03">
+							<h4>Pay For ELectricity</h4>
+						<input class="radioButton" type="radio" value="Prepaid" checked > <label>Electricity Boards</label>
+						<input class="radioButton" type="radio" value="Postpaid" disabled> <label> Apartment</label>
+						<br>
+						<select class="stateslist">
+							<option value="">Select State</option>
+							<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+							<option value="Andhra Pradesh">Andhra Pradesh</option>
+							<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+							<option value="Assam">Assam</option>
+							<option value="Bihar">Bihar</option>
+							<option value="Chandigarh">Chandigarh</option>
+							<option value="Chhattisgarh">Chhattisgarh</option>
+							<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+							<option value="Daman and Diu">Daman and Diu</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Goa">Goa</option>
+							<option value="Gujarat">Gujarat</option>
+							<option value="Haryana">Haryana</option>
+							<option value="Himachal Pradesh">Himachal Pradesh</option>
+							<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+							<option value="Jharkhand">Jharkhand</option>
+							<option value="Karnataka">Karnataka</option>
+							<option value="Kerala">Kerala</option>
+							<option value="Lakshadweep">Lakshadweep</option>
+							<option value="Madhya Pradesh">Madhya Pradesh</option>
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="Manipur">Manipur</option>
+							<option value="Meghalaya">Meghalaya</option>
+							<option value="Mizoram">Mizoram</option>
+							<option value="Nagaland">Nagaland</option>
+							<option value="Orissa">Orissa</option>
+							<option value="Pondicherry">Pondicherry</option>
+							<option value="Punjab">Punjab</option>
+							<option value="Rajasthan">Rajasthan</option>
+							<option value="Sikkim">Sikkim</option>
+							<option value="Tamil Nadu">Tamil Nadu</option>
+							<option value="Tripura">Tripura</option>
+							<option value="Uttaranchal">Uttaranchal</option>
+							<option value="Uttar Pradesh">Uttar Pradesh</option>
+							<option value="West Bengal">West Bengal</option>
+							</select>
+						<buttlon class="btn" type="button">Proceed</button>
+						
+						
+					</form>
+				</li>
+				 <!--<li class="nav-item show">
+					<span class="" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">ELECTRICITY</span>
+					<form class="subForm class="subForm dropdown-menu show" aria-labelledby="dropdown03"">
 						<h4>Pay For ELectricity</h4>
 						<input class="radioButton" type="radio" value="Prepaid" checked > <label>Electricity Boards</label>
 						<input class="radioButton" type="radio" value="Postpaid" disabled> <label> Apartment</label>
@@ -97,10 +152,12 @@
 						
 					</form>
 					
-				</li>
-				<li class="nav-item ">
-					<span>DTH</span>
-					<form class="subForm">
+				</li> -->
+				<li class="nav-item  show">
+					<span class="" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DTH</span>
+					<!--<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Mobile</a>-->
+
+					<form class="subForm dropdown-menu show" aria-labelledby="dropdown03">
 						<h4>DTH Recharge</h4>
 						<button onclick="displayListFunction()" class="selectOperator"> select operator</button>
 						<div class="list">
@@ -141,9 +198,11 @@
 						<buttlon class="btn" type="button">Proceed</button>
 					</form>
 				</li>
-				<li class="nav-item ">
-					<span>METRO</span>
-					<form class="subForm  content-fluid">
+				<li class="nav-item  show">
+					<span class="" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Metro</span>
+					<!--<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Mobile</a>-->
+
+					<form class="subForm dropdown-menu show" aria-labelledby="dropdown03">
 						<h4>Metro</h4>
 						<button onclick="displayListFunction()" class="selectOperator">Metro</button>
 						<div class="list">
@@ -188,9 +247,11 @@
 				<li class="nav-item ">
 					<span>BROADBAND</span>
 				</li>
-				<li class="nav-item ">
-					<span>CABEL TV</span>
-					<form class="subForm">
+				<li class="nav-item  show">
+					<span class="" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CABLE TV</span>
+					<!--<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Mobile</a>-->
+
+					<form class="subForm dropdown-menu show" aria-labelledby="dropdown03">
 						<h4>CableTv Recharge or Bill Payment</h4>
 						<button onclick="displayListFunction()" class="selectOperator">operator</button>
 						<div class="list">
