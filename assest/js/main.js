@@ -16,7 +16,15 @@ $(document).ready(function () {
 
         document.getElementsByClassName("list").setAttribute('style', 'display:block');
     }
-    
+    $(document).click(function(){
+        $(".dropdown-menu").hide();
+      });
+      
+      /* Clicks within the dropdown won't make
+         it past the dropdown itself */
+      $(".dropdown-menu").click(function(e){
+        e.stopPropagation();
+      });
 
     
 });
